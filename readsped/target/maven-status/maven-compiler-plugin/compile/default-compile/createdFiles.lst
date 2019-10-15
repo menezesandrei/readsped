@@ -1,0 +1,12 @@
+br/com/readsped/service/ArquivoFiscalService.class
+br/com/readsped/controller/HomeController.class
+br/com/readsped/model/ArquivoFiscal.class
+br/com/readsped/controller/ArquivoController.class
+br/com/readsped/model/ArquivoContribuicoes.class
+br/com/readsped/enun/IndiceSpedContribuicoesEnun.class
+br/com/readsped/model/Movimento.class
+br/com/readsped/enun/IndiceSpedFiscalEnun.class
+br/com/readsped/service/ArquivoContribuicoesService.class
+br/com/readsped/model/Arquivo.class
+br/com/readsped/ReadspedApplication.class
+br/com/readsped/service/ArquivoService.class

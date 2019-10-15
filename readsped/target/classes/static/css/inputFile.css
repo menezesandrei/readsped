@@ -1,0 +1,163 @@
+html, body{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+}
+.form-div
+{
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* background: #466380; */
+    border: 1px;
+}
+
+.form-div h2{
+    margin-bottom: 60px;
+}
+
+.input-label
+{
+    background: #E6E6E6;
+    color: #34495e;
+}
+#file
+{
+    display: none;
+}
+
+.input-label:hover
+{
+    cursor: pointer;
+}
+.icone-upload{
+   margin-right: 10px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-weight: 100 !important;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.left-column
+{
+    width: 80%;
+}
+#div-table-arquivos
+{
+    /* border: white solid; */
+    height: 80%;
+    width: 93%;
+    background: #E6E6E6;
+    border-top: 1px solid;
+    overflow: auto;
+
+}
+
+.centro-body
+{
+    height: 90%;
+    /* border: black; */
+    border: black;
+    border: solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E6E6E6;
+    flex-direction: column;
+    border: 1px;
+}
+
+.cabecalho-upload
+{
+    height: 10%;
+    /* border: black solid; */
+    width: 91%;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#div-botoes
+{
+    width: 26%;
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 63%;
+}
+#button-ler-arquivo
+{
+    width: 44%;
+    padding: 8px;
+    height: auto;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E6E6E6;
+    min-width: 136px;
+}
+
+#upload-file-form
+{
+    height: 100%;
+    background: #E6E6E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 7px;
+    width: 40%;
+    /* color: #34495e; */
+    min-width: 181px;
+}
+
+.load {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    color: #0E7905;
+}
+#button-ler-arquivo
+{
+    background: #E6E6E6;
+    color: #34495e;
+    border:  none;
+}
+#msg-qtd-arquivos
+{
+    width: 15%;
+    /* background: aqua; */
+    height: 54%;
+    min-width: 262px;
+}
+#msg-qtd
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row; 
+    
+}
+
